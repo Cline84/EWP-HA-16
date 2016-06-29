@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lindes Lieblingsfilme</title>
+
+<!-- Einbindung von dataTable.css -->
+    <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.css">
+
+    <!-- Einbindung von tooltipster.css -->
+    <link rel="stylesheet" href="node_modules/tooltipster/css/tooltipster.css">
+
+<!-- Einbindung von eigenem css -->
+    <link rel="stylesheet" href="lieblingsfilme.css">
+
+
+</head>
+<body>
+
+<!-- Tabellenkopf -->
+<table id="filme">
+    <thead>
+    <tr>
+        <th>Titel</th>
+        <th>Erscheinungsjahr</th>
+        <th>Land</th>
+        <th>Hauptdarsteller</th>
+    </tr>
+    </thead>
+</table>
+
+<!-- Button Lieblingsfilm -->
+<button id="lieblingsfilm">Mein Lieblingsfilm</button>
+
+<!-- Bild Tooltipster mit Beschreibung -->
+<div id="lieblingsfilmContent">
+
+    <img src="http://ia.media-imdb.com/images/M/MV5BMjQyODg5Njc4N15BMl5BanBnXkFtZTgwMzExMjE3NzE@._V1_UY268_CR1,0,182,268_AL_.jpg">
+    <div><strong>Deadpool</strong> Das Bild sagt schon alles.</div>
+
+</div>
+
+<!-- Einbindung von jQuery -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+<!-- Einbindung von dataTable -->
+<script src="node_modules/datatables/media/js/jquery.dataTables.min.js"></script>
+
+<!-- Einbindung von tooltipster -->
+<script src="node_modules/tooltipster/js/jquery.tooltipster.min.js"></script>
+
+<!-- Einbindung des eigenen JavaScript-Codes -->
+<script src="lieblingsfilme.js"></script>
+
+</body>
+</html>

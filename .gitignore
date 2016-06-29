@@ -1,0 +1,5 @@
+node_modules/*
+
+
+#Ignore Bilder mit Dateiendung jpg
+*.jpg
